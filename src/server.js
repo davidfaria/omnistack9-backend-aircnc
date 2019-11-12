@@ -11,7 +11,7 @@ const server = http.Server(app);
 const io = socketio(server);
 
 mongoose.connect(
-  "mongodb+srv://<USER>:<PASSWORD>@omnistack-orwal.mongodb.net/<YOUR-COLLECTION-DB>?retryWrites=true&w=majority",
+  "mongodb+srv://omnistack:omnistack@omnistack-orwal.mongodb.net/week09?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
